@@ -11,4 +11,6 @@ RUN git clone --depth 1 https://github.com/42School/norminette .
 RUN pip3 install -r requirements.txt
 RUN python3 setup.py install
 
+WORKDIR /code
+
 ENTRYPOINT ["norminette"]

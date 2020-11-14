@@ -10,4 +10,6 @@ WORKDIR /usr/src/norminette
 RUN git clone --depth 1 https://github.com/42Paris/norminette .
 RUN bundle
 
+WORKDIR /code
+
 ENTRYPOINT ["/usr/src/norminette/norminette.rb"]
