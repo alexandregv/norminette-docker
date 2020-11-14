@@ -18,6 +18,9 @@ docker run -v $PWD:/code alexandregv/norminette:v3
 # Pass arguments to norminette
 docker run -v $PWD:/code alexandregv/norminette:v2 -R CheckForbiddenSourceHeader main.c
 ```
+
+### Windows (cmd.exe)
+
 On Windows (cmd.exe), replace `$PWD` with `%cd%`.
 
 ## See also
