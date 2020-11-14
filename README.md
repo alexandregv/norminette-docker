@@ -7,26 +7,18 @@ Dockerized norminette (42School's code linter)
 ### Linux / macOS / PowerShell
 
 ```
-cd ~/42projects/ft_printf
+cd ft_printf
 
 # Norm version 2
 docker run -v $PWD:/code alexandregv/norminette:v2
 
 # Norm version 3
 docker run -v $PWD:/code alexandregv/norminette:v3
+
+# Pass arguments to norminette
+docker run -v $PWD:/code alexandregv/norminette:v2 -R CheckForbiddenSourceHeader main.c
 ```
-
-### Windows (cmd.exe)
-
-```
-cd ~/42projects/ft_printf
-
-# Norm version 2
-docker run -v %cd%:/code alexandregv/norminette:v2
-
-# Norm version 3
-docker run -v %cd%:/code alexandregv/norminette:v3
-```
+On Windows (cmd.exe), replace `$PWD` with `%cd%`.
 
 ## See also
 
