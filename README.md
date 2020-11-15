@@ -25,9 +25,8 @@ On Windows (cmd.exe), replace `$PWD` with `%cd%`.
 
 ## See also
 
-- [norminette-action](https://github.com/alexandregv/norminette-action): Norminette GitHub Action (CI)  
-  If you are hosting your projects on GitHub, you probably should take a look at [alexandregv/norminette-action](https://github.com/alexandregv/norminette-action).  
-  It allows to run norminette automatically after each push, on GitHub's cloud.
+* [norminette-action](https://github.com/alexandregv/norminette-action-demo) - GitHub Action (CI) to test norminette after each push, automatically. Uses this docker image.
+* [norminette-action-demo](https://github.com/alexandregv/norminette-action-demo) - Demo repository for norminette-action.
+* [norminette-vim](https://github.com/alexandregv/norminette-vim) - Vim integration for norminette. Displays norm errors directly inside Vim.
 
-- [norminette-vim](https://github.com/alexandregv/norminette-vim): Norminette inside vim  
-  A *true* 42 student codes in vim, and a *true* 42 student doesn't like to waste his time by switching from vim to norminette, and to vim again, and.. to norminette again. A *true* 42 student like you should probably use [alexandregv/norminette-vim](https://github.com/alexandregv/norminette-vim).
+All of these are compatible with Norm version 2 and 3.
