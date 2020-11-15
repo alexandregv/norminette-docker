@@ -25,7 +25,7 @@ On Windows (cmd.exe), replace `$PWD` with `%cd%`.
 
 ## See also
 
-* [norminette-action](https://github.com/alexandregv/norminette-action-demo) - GitHub Action (CI) to test norminette after each push, automatically. Uses this docker image.
+* [norminette-action](https://github.com/alexandregv/norminette-action) - GitHub Action (CI) to test norminette after each push, automatically. Uses this docker image.
 * [norminette-action-demo](https://github.com/alexandregv/norminette-action-demo) - Demo repository for norminette-action.
 * [norminette-vim](https://github.com/alexandregv/norminette-vim) - Vim integration for norminette. Displays norm errors directly inside Vim.
 
