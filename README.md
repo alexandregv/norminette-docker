@@ -37,3 +37,6 @@ On Windows (cmd.exe), just replace `$PWD` with `%cd%` in the previous commands.
 * [norminette-vim](https://github.com/alexandregv/norminette-vim) - Vim integration for norminette. Displays norm errors directly inside Vim.
 
 All of these are compatible with Norm version 2 and 3.
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/alexandregv/norminette-docker.svg?variant=adaptive)](https://starchart.cc/alexandregv/norminette-docker)
